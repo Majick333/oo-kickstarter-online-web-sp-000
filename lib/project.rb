@@ -9,7 +9,7 @@ class Project
   end
 
   def self.backers
-    @backers
+    @backers = []
   end
 
 end
