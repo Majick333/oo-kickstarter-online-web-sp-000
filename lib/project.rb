@@ -1,6 +1,6 @@
 
 class Project
-  attr_reader :title
+  attr_accessor :title, :backers
   #@backers = []
 
   def initialize(title)
